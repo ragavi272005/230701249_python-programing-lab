@@ -1,0 +1,5 @@
+a = input()
+b = "".join(a.split("@")[1:])
+print(b[b.find(".")+1:])
+print(b[:b.find(".")])
+print(a.split("@")[0])
